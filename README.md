@@ -1,7 +1,8 @@
 Sentinel_vip
 
   这是一款补足Redis sentinel 服务能自动切换redis 主从状态，但不能做VIP
-切换的功能脚本。
+切换的功能脚本。可以很好监测sentinel做VIP漂移，方便应用配置Redis VIP地址，
+应用不用因为主从Redis因主漂移至从需要修改IP,仅要配置VIP即可。
 
 说明：
 
