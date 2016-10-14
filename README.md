@@ -25,4 +25,4 @@ Redis服务器IP与sentinel Redis master IP不一致，自动将主Redis
 
 运行：
 
-nohup python Sentinel_vip_conf.py &   #将脚本防止后台运行
+nohup python Sentinel_vip_conf.py &   #将脚本放后台运行
