@@ -1,4 +1,6 @@
-sentinel_vip
+Sentinel_vip
+
+  这是一款补足Redis sentinel 服务能自动切换，但不能做主VIP切换的功能脚本。
 
 说明：
 
