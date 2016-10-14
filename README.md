@@ -16,9 +16,11 @@ Redis服务器IP与sentinel Redis master IP不一致，自动将主Redis
 的VIP切换至sentinel Redis master IP所子的Redis
 
 准备：
+   
    首先配好两台Redis主从服务器，然后在各个主从服务器配置好Sentinel的服务，
 在两台Redis 主从服务器启动Sentinel的服务。
     配置Sentinel_vip_conf.py文件，将主从IP地址和系统用户密码写入该文件。
 
 运行：
+
 nohup python Sentinel_vip_conf.py &   #将脚本防止后台运行
