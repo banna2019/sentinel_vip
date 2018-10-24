@@ -9,7 +9,7 @@ Sentinel_vip
 
   对新master 主机添加VIP地址，主从Redis切换由sentinel服务负责，本脚本自动监测sentinel服务内Redis状态进行切换
 
-  在Sentinel_vip_conf.py 文件中配置redis 的主从的IP和root 及root密码脚本三秒检测一次sentinel Redis master IP并与Redis IP比较，如果主Redis服务器IP与sentinel Redis master IP不一致，自动将主Redis的VIP切换至sentinel Redis master IP所子的Redis
+  在Sentinel_vip_conf.py 文件中配置redis 的主从的IP和root 及root密码脚本三秒检测一次sentinel Redis master IP并与Redis IP比较，如果主Redis服务器IP与sentinel Redis master IP不一致，自动将主Redis的VIP切换至sentinel Redis master IP所在的Redis
 
 准备：
    
