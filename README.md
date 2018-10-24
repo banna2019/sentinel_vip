@@ -18,4 +18,4 @@ Sentinel_vip
 
 运行：
 
-  nohup python Sentinel_vip_conf.py &   #将脚本放后台运行
+  nohup python Sentinel_vip.py &   #将脚本放后台运行
